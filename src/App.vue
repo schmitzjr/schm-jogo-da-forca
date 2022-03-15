@@ -1,4 +1,5 @@
 <template>
+
   <div id="app">
 
     <h1>Jogo da forca VUE</h1>
@@ -22,6 +23,7 @@
     </section>
 
     <section v-if="tela === 'jogo'" id="jogo">
+
       <Jogo 
         :erros="erros"
         :palavra="palavra"
@@ -32,14 +34,16 @@
         :jogar="jogar"
         :jogarNovamente="jogarNovamente"
       />
+
     </section>
 
   </div>
+
 </template>
 
 <script>
-import './css/global.css';
 
+import './css/global.css';
 import Formulario from '@/components/Formulario';
 import Jogo from '@/components/Jogo';
 
@@ -118,9 +122,11 @@ export default {
 
   },
 }
+
 </script>
 
 <style>
+
 #app{
   width: 100%;
   height: 100%;
@@ -129,4 +135,5 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 </style>

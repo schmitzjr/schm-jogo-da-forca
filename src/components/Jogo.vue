@@ -1,4 +1,5 @@
 <template>
+
     <div class="jogo">
 
         <Forca
@@ -29,9 +30,11 @@
         />
 
     </div>
+
 </template>
 
 <script>
+
 import Forca from './Forca';
 import Palavra from './Palavra';
 import Teclado from './Teclado';
@@ -64,6 +67,7 @@ export default {
         
     },
 }
+
 </script>
 
 <style>

@@ -1,4 +1,5 @@
 <template>
+
     <div class="palavra">
 
         <div class="palavra-letras">
@@ -16,6 +17,7 @@
         </div>
 
     </div>
+
 </template>
 
 <script>
@@ -40,6 +42,7 @@ export default {
         
     },
 }
+
 </script>
 
 <style>

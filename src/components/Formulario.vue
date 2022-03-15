@@ -1,4 +1,5 @@
 <template>
+
   <div class="formulario">
     <div class="fomulario-title">{{ title }}</div>
 
@@ -8,9 +9,11 @@
       {{ button }}
     </button>
   </div>
+  
 </template>
 
 <script>
+
 export default {
   name: "FormularioComp",
   props: {
@@ -30,9 +33,11 @@ export default {
     },
   },
 };
+
 </script>
 
 <style>
+
 .formulario {
   display: flex;
   flex-direction: column;
@@ -51,4 +56,5 @@ export default {
   color: var(--color-text-dark);
   font-size: 16px;
 }
+
 </style>

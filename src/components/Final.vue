@@ -1,4 +1,5 @@
 <template>
+
     <div class="final">
         
         <div :class="`final-texto-${etapa}`">
@@ -11,9 +12,11 @@
         </button> 
 
     </div>
+
 </template>
 
 <script>
+
 export default {
     name: 'FinalComp',
     props:{
@@ -22,6 +25,7 @@ export default {
         jogarNovamente: Function
     }
 }
+
 </script>
 
 <style>

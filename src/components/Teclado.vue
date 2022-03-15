@@ -1,4 +1,5 @@
 <template >
+
     <div class="teclado">
 
       <button
@@ -11,9 +12,11 @@
       >{{letra}}</button> 
         
     </div>
+
 </template>
 
 <script>
+
 export default {
     name: "TecladoComp",
     data() {
@@ -27,6 +30,7 @@ export default {
       jogar: Function
     }
 }
+
 </script>
 
 <style>
@@ -43,4 +47,5 @@ export default {
   margin: 5px;
   text-transform: uppercase;
 }
+
 </style>

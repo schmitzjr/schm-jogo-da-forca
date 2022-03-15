@@ -1,5 +1,6 @@
 <template>
     <div class="palavra">
+
         <div class="palavra-letras">
 
             <div v-for="(letra, key) in palavra" :key="key" class="palavra-letra">
@@ -7,9 +8,13 @@
             </div>
             
         </div>
+
         <div class="palavra-dica">
+
             {{dica}}
+
         </div>
+
     </div>
 </template>
 
@@ -60,10 +65,6 @@ export default {
 .palavra-letras{
     display: flex;
     margin-bottom: 20px;
-}
-
-.palavra-dica{
-
 }
     
 </style>

@@ -10,14 +10,14 @@
         <Palavra
             :palavra="palavra"
             :dica="dica"
-            :verificarletra="verificarletra"
+            :verificarLetra="verificarLetra"
             :etapa="etapa"
         />
 
         <Teclado
             v-if="etapa === 'jogo'"
             :letras="letras"
-            :verificarletra="verificarletra"
+            :verificarLetra="verificarLetra"
             :jogar="jogar"
         />
 
@@ -44,7 +44,7 @@ export default {
        palavra: String,
        dica: String,
        etapa: String,
-       verificarletra: Function,
+       verificarLetra: Function,
        letras: Array,
        jogar: Function,
        jogarNovamente: Function

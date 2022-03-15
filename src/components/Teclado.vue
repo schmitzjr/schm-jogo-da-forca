@@ -5,7 +5,7 @@
         class="teclado-botao" 
         v-for="(letra, key) in alfabeto" 
         :key="key"
-        :disabled="verificarletra(letra)"
+        :disabled="verificarLetra(letra)"
         v-on:click="jogar(letra)"
         
       >{{letra}}</button> 
@@ -23,7 +23,7 @@ export default {
     },
     props:{
       letras: Array,
-      verificarletra: Function,
+      verificarLetra: Function,
       jogar: Function
     }
 }

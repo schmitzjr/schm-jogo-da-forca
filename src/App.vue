@@ -26,7 +26,7 @@
         :erros="erros"
         :palavra="palavra"
         :dica="dica"
-        :verificarletra="verificarletra"
+        :verificarLetra="verificarLetra"
         :etapa="etapa"
         :letras="letras"
         :jogar="jogar"
@@ -71,7 +71,7 @@ export default {
       this.etapa = 'jogo';
     },
 
-    verificarletra: function(letra){
+    verificarLetra: function(letra){
       return this.letras.find(item => item.toLowerCase() === letra.toLowerCase());
     },
 

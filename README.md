@@ -1,4 +1,4 @@
-# siple-vue-hangman-game
+# simple-vuejs-hangman-game
 
 ## Project setup
 ```

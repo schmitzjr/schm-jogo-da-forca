@@ -1,4 +1,4 @@
-# schm-jogo-da-forca
+# siple-vue-hangman-game
 
 ## Project setup
 ```
